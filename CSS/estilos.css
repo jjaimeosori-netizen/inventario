@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 35px;
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+    background-color: #142d4e;
+    color: white;
+    padding: 25px;
+    border-radius: 12px 12px 0 0;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+}
+
+/* ENCABEZADOS */
+thead {
+    background-color: #1e426b;
+    color: white;
+}
+
+th {
+    padding: 17px 12px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* CELDAS */
+td {
+    padding: 15px 12px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+/* FILAS ALTERNADAS */
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tbody tr:hover {
+    background-color: #eaf2fb;
+    transition: 0.2s;
+}
+
+/* ETIQUETAS DE CATEGORÍA */
+.etiqueta {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ESTADOS DEL INVENTARIO */
+.agotado {
+    background-color: #fee2e2;
+}
+
+.bajo-stock {
+    background-color: #fef3c7;
+}
+
+.disponible {
+    background-color: #dcfce7;
+}
+
+/* PRODUCTO DESTACADO */
+.destacado {
+    outline: 3px solid #2563eb !important;
+    outline-offset: -3px;
+    font-weight: 600;
+}
+
+/* BOTONES DE CANTIDAD */
+td button {
+    margin: 0 5px;
+    padding: 6px 11px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1e426b;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+td button:hover {
+    background-color: #2563eb;
+    transform: scale(1.08);
+}
+
+td span {
+    margin: 0 4px;
+    font-weight: 600;
+}
+
+/* RESUMEN */
+#resumen {
+    margin-top: 25px;
+    padding: 22px;
+    background-color: white;
+    border-radius: 10px;
+    border-left: 5px solid #1e426b;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+#resumen p {
+    padding: 9px 0;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+#resumen p:last-child {
+    border-bottom: none;
+}
+
+
