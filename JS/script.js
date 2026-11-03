@@ -15,7 +15,7 @@ const resumen = document.getElementById("resumen");
 
 function mostrarInventario() {
 
-    // Limpiar la tabla y el resumen
+    // Limpiar la tabla y el resume
     cuerpoTabla.innerHTML = "";
     resumen.innerHTML = "";
 
