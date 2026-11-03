@@ -12,7 +12,7 @@ body {
     padding: 35px;
 }
 
-/* TÍTULO PRINCIPAL */
+
 h1 {
     background-color: #142d4e;
     color: white;
@@ -23,7 +23,7 @@ h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
 }
 
-/* TABLA */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -32,7 +32,7 @@ table {
     overflow: hidden;
 }
 
-/* ENCABEZADOS */
+
 thead {
     background-color: #1e426b;
     color: white;
@@ -46,14 +46,14 @@ th {
     letter-spacing: 0.5px;
 }
 
-/* CELDAS */
+
 td {
     padding: 15px 12px;
     border-bottom: 1px solid #e2e8f0;
     font-size: 14px;
 }
 
-/* FILAS ALTERNADAS */
+
 tbody tr:nth-child(even) {
     background-color: #f8fafc;
 }
@@ -63,7 +63,7 @@ tbody tr:hover {
     transition: 0.2s;
 }
 
-/* ETIQUETAS DE CATEGORÍA */
+
 .etiqueta {
     display: inline-block;
     padding: 6px 10px;
@@ -73,7 +73,6 @@ tbody tr:hover {
     font-weight: 600;
 }
 
-/* ESTADOS DEL INVENTARIO */
 .agotado {
     background-color: #fee2e2;
 }
@@ -86,14 +85,14 @@ tbody tr:hover {
     background-color: #dcfce7;
 }
 
-/* PRODUCTO DESTACADO */
+
 .destacado {
     outline: 3px solid #2563eb !important;
     outline-offset: -3px;
     font-weight: 600;
 }
 
-/* BOTONES DE CANTIDAD */
+
 td button {
     margin: 0 5px;
     padding: 6px 11px;
@@ -117,7 +116,7 @@ td span {
     font-weight: 600;
 }
 
-/* RESUMEN */
+
 #resumen {
     margin-top: 25px;
     padding: 22px;
